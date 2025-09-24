@@ -1,0 +1,177 @@
+/*My Attribute*/
+a {
+    text-decoration: none; 
+    color: black;
+    font-family: 'Pacifico', cursive;
+    font-size: 15px;
+}
+
+audio {
+    padding: 65px 0 0 0;
+}
+
+/*header*/
+body {
+    background-color: rgb(255, 162, 178);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 0 200px 0;
+}
+.imagebody {
+    background-color: rgb(255, 162, 178);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+/*turn the content to right part*/
+.main-page-content {
+    width: 600px;
+    height: 630px;
+    background: #fff;
+    border-radius: 20px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0. 15);
+    padding: 5px 10px 20px 10px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    margin: 0 50px 0 0;
+}
+.main-page-content2 {
+    width: 600px;
+    height: 895px;
+    background: #fff;
+    border-radius: 20px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0. 15);
+    padding: 5px 10px 20px 10px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    margin: 0 50px 0 0;
+}
+.right-align-element-card {
+    width: 600px;
+    height: 350px;
+    background: #fff;
+    border-radius: 20px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0. 15);
+    padding: 5px 10px 20px 10px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    margin: 0 50px 0 0;
+}
+
+
+
+@keyframes animate {
+    from {
+        transform: translateX(0%);
+    }
+    to {
+        transform: translateX(-50%);
+    }
+}
+.wholeimage {
+    background-color: white;
+    padding: 15px 0 10px 0;
+}
+.imagecontainer:hover {
+    animation-play-state:paused;
+}
+.imagecontainer {
+    display: inline-block;
+    animation: 10s animate infinite linear;
+    white-space: nowrap;
+}
+.imagecontainer img{
+    margin: 10px;
+}
+
+
+
+.right-align-element-card-message {
+    width: 600px;
+    height: 600px;
+    background: #fff;
+    border-radius: 20px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0. 15);
+    padding: 5px 10px 30px 10px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    margin: 0 50px 0 0;
+    font-family: 'Pacifico', cursive;
+}
+
+/*header*/
+h1{ 
+    text-align: center;
+}
+
+/*section of my buttons*/
+section {
+    display: inline-flex;
+    flex-direction: column;
+    margin: 50px 250px 0 140px;
+    padding: 0 0 0 50px;
+    color: rgb(0, 0, 0);
+}
+
+/*All Buttons*/
+button {
+    margin: 10px;
+    padding: 10px;
+    font-family: 'Pacifico', cursive;
+    font-weight: bold;
+    
+}
+
+/*image button*/
+.imagebutton{
+    transition: transform 0.4s ease-in-out;
+}
+.imagebutton:hover {
+    transform: scale(1.2) rotate(15deg);
+}
+
+/*video button*/
+.videobutton {
+    transition: transform 0.4s ease-in-out;
+}
+.videobutton:hover {
+    transform: scale(1.2) rotate(-15deg);
+}
+
+/*message button*/
+.messagebutton{
+    transition: transform 0.4s ease-in-out;
+}
+.messagebutton:hover {
+    transform: scale(1.2) rotate(15deg);
+}
+
+/*music button*/
+.musicbutton{
+    transition: transform 0.4s ease-in-out;
+}
+.musicbutton:hover {
+    transform: scale(1.2) rotate(-15deg);
+}
+
+/*upper part of buttons*/
+p {
+    font-size: 20px;
+    font-family: 'Pacifico',cursive;
+}
+.upperpart {
+    display: flex;
+}
+.headbutton {
+    margin-left: 500px;
+    padding: 15px;
+}

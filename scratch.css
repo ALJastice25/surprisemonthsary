@@ -1,0 +1,15 @@
+.wholeimage {
+    
+    grid-auto-flow: column;
+    grid-auto-columns: 16px;
+    justify-content: stretch;
+    animation: animate 15s linear infinite;
+    position: relative;
+    top: -355px;
+}
+.right-align-element-card-image-background {
+    width: 1800px;
+    height: 350px;
+    background: #fff;
+    border-radius: 20px;
+}
